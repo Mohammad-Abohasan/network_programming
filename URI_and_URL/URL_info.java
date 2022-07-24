@@ -19,7 +19,6 @@ public class URL_info {
         System.out.println(c.getContentType());
         System.out.println(c.getContentEncoding());
         System.out.println(c.getContentLength());
-        System.out.println(c.getDate()); // **
         System.out.println(new Date(c.getDate()));
         System.out.println(new Date(c.getLastModified()));
         System.out.println(new Date(c.getExpiration()));
