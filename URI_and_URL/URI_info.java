@@ -1,6 +1,7 @@
 package URI_and_URL;
 
 import java.net.URI;
+import java.net.URISyntaxException;
 
 /**
  *
@@ -8,7 +9,7 @@ import java.net.URI;
  */
 public class URI_test {
     
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws URISyntaxException {
         URI uri = new URI("http://www.facebook.com/c?EmpData=14#column=64");
         System.out.println(uri.getScheme());
         System.out.println(uri.getAuthority());
