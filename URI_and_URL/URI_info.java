@@ -10,7 +10,7 @@ import java.net.URISyntaxException;
 public class URI_test {
     
     public static void main(String[] args) throws URISyntaxException {
-        URI uri = new URI("http://www.facebook.com/c?EmpData=14#column=64");
+        URI uri = new URI("http://www.facebook.com:8080/c?EmpData=14#column=64");
         System.out.println(uri.getScheme());
         System.out.println(uri.getAuthority());
         System.out.println(uri.getPath());
