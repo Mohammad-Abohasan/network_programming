@@ -20,7 +20,7 @@ public class buffered_input_stream {
         int i = 0;
         // read() : return int (convert char to int (ascii-code))
         while ((i = buf.read()) != -1) {
-            System.out.println((char) i);
+            System.out.print((char) i);
         }
     }
 }
