@@ -7,6 +7,7 @@ import java.net.URI;
  * @author Mohammad_AboHasan
  */
 public class URI_test {
+    
     public static void main(String[] args) throws Exception {
         URI uri = new URI("http://www.facebook.com/c?EmpData=14#column=64");
         System.out.println(uri.getScheme());
