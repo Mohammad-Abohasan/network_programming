@@ -1,7 +1,7 @@
 package URI_and_URL;
 
-import java.io.File;
 import java.net.URI;
+import java.io.File;
 
 /**
  *
