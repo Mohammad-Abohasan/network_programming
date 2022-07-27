@@ -2,11 +2,11 @@ package URI_and_URL;
 /* 
 Q1) Why do we learn these things?
     This information is useful to :-
-      1. Network Engineer.  2. Web Developer.  3. Ethical Hacker.
+     1. Network Engineer.  2. Web Developer.  3. Ethical Hacker.
 Q2) What will we gain from these codes?
     benefit to :-
-      1. Mining     -> The number of users who entered the site.
-      2. Management -> To know how many processes and memory we need.
+     1. Mining     -> The number of users who entered the site.
+     2. Management -> To know how many processes and memory we need.
  */
 
 import java.net.URI;
