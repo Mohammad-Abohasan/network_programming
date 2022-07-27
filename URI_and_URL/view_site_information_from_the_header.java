@@ -13,9 +13,10 @@ public class view_site_information_from_the_header {
     public static void main(String[] args) throws IOException {
         URL u = new URL("http://www.microsoft.com");
         URLConnection uc = u.openConnection();
-        // uc.connect(); (not important)
+        uc.connect();
+        String header;
         for (int i = 0;; i++) {
-            String header = uc.getHeaderField(i);
+            header = uc.getHeaderField(i);
             if (header == null) {
                 break;
             }

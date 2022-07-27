@@ -14,7 +14,7 @@ public class buffered_input_stream {
 
     public static void main(String[] args) throws IOException {
         URL u = new URL("http://ptuk.edu.ps/");
-        URLConnection uc = u.openConnection(); // open connection
+        URLConnection uc = u.openConnection();
         InputStream is = uc.getInputStream(); // open stream to transfer data
         BufferedInputStream buf = new BufferedInputStream(is);
         int i = 0;
