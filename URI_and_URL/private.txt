@@ -1,0 +1,82 @@
+// ========== cookies_protection ==========
+
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
+
+/**
+ *
+ * @author Mohammad_AboHasan
+ */
+public class Main {
+    public static void main(String[] args) throws IOException {
+        URL url          = new URL("https://github.com");
+        URLConnection uc = url.openConnection();
+        EncapsulateCookies.encapsulateCookies(uc);
+    }
+}
+
+
+/*
+// ========== get_cookies_from_http_server ==========
+
+// ("set_cookies":cookies_name=cookie_name;expire=27/7/2023;path=/;domain=example.com;secure)
+
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        URL url          = new URL("https://github.com");
+        URLConnection uc = url.openConnection();
+        String headerKey, headerValue;
+        for (int i = 0; ; i++) {
+            headerKey   = uc.getHeaderFieldKey(i);
+            headerValue = uc.getHeaderField(i);
+            if(headerKey == null && headerValue == null) {
+                break;
+            }
+            System.out.println(headerKey + " " + headerValue);
+            System.out.println("test");
+            if(headerKey.equalsIgnoreCase("Set_Cookies")) {
+                String [] fields = headerValue.split(";\\s");
+                System.out.println(Arrays.toString(fields));
+                System.out.println("testtttt");
+                for (String field : fields) {
+                    System.out.println(field);
+                }
+            }
+        }
+    }
+}
+ */
+ 
+ import java.net.URLConnection;
+import java.util.Arrays;
+
+public class EncapsulateCookies {
+    private static String headerKey;
+    private static String headerValue;
+
+    public  static void encapsulateCookies(URLConnection uc){
+        for (int i = 0; ; i++) {
+            headerKey   = uc.getHeaderFieldKey(i);
+            headerValue = uc.getHeaderField(i);
+            if(headerKey == null && headerValue == null) {
+                break;
+            }
+            System.out.println(headerKey + " " + headerValue);
+            System.out.println("test");
+            if(headerKey.equalsIgnoreCase("Set_Cookies")) {
+                String [] fields = headerValue.split(";\\s");
+                System.out.println(Arrays.toString(fields));
+                System.out.println("testtttt");
+                for (String field : fields) {
+                    System.out.println(field);
+                }
+            }
+        }
+    }
+}
