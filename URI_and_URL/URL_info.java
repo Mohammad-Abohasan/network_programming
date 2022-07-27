@@ -1,10 +1,10 @@
 package URI_and_URL;
 
-import java.sql.Date;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.HttpURLConnection;
 import java.io.IOException;
+import java.sql.Date;
 
 /**
  *
