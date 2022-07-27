@@ -18,9 +18,7 @@ public class get_cookies_from_http_server {
         for (int i = 0;; i++) {
             headerKey = uc.getHeaderFieldKey(i);
             headerValue = uc.getHeaderField(i);
-            if (headerKey == null && "HTTP/1.1 200 OK".equalsIgnoreCase(headerValue)) {
-                continue;
-            } else if (headerKey == null || headerValue == null) {
+            if (headerKey == null && headerValue == null) {
                 break;
             }
             if ("Set-Cookie".equalsIgnoreCase(headerKey)) {
