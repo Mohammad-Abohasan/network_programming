@@ -1,5 +1,3 @@
-package URI_and_URL;
-
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 
