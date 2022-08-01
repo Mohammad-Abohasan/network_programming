@@ -1,4 +1,3 @@
-package Network_Layer;
 // ========== Extract domain name ==========
 
 import java.io.IOException;
