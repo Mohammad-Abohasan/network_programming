@@ -1,5 +1,3 @@
-package URI_and_URL;
-
 import javax.net.ssl.HttpsURLConnection;
 import java.io.BufferedReader;
 import java.io.IOException;
