@@ -1,5 +1,3 @@
-package URI_and_URL;
-
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.HttpURLConnection;
