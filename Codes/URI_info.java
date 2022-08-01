@@ -1,4 +1,3 @@
-package URI_and_URL;
 /* 
 Q1) Why do we learn these things?
     This information is useful to :-
