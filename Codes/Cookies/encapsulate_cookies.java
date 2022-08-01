@@ -1,5 +1,3 @@
-package Cookies;
-
 import java.net.URLConnection;
 
 /**
