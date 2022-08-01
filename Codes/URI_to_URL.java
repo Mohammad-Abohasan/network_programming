@@ -1,5 +1,3 @@
-package URI_and_URL;
-
 import java.net.URI;
 import java.net.URL;
 
