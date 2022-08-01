@@ -1,4 +1,3 @@
-package Cookies;
 // Set-Cookie  sb=56_hYueTtLkYbPxXOHZrhYIX; expires=Fri, 26-Jul-2024 21:36:39 GMT; Max-Age=63072000; path=/; domain=.facebook.com; secure; httponly
 
 import java.io.IOException;
