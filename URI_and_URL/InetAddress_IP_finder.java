@@ -13,9 +13,9 @@ import java.util.Arrays;
 public class InetAddress_IP_finder {
 
     public static void main(String[] args) throws IOException {
-        System.out.println("localhost : " + InetAddress.getLocalHost()); // static method
+        System.out.println("localhost : " + InetAddress.getLocalHost()); // [static method]
         // [three cases] := Mohammad-AboHasan/192.168.56.1 -- when connect with internet [<Device-name>/my_private_ip],
-        //                  Mohammad-AboHasan/127.0.0.1    -- when offline            [<Device-name>/loopback]        ,
+        //                  Mohammad-AboHasan/127.0.0.1    -- when offline               [<Device-name>/loopback]     ,
         //                  no-output when exists Firewall                                                            .
 
         System.out.println("loopback : " + InetAddress.getLoopbackAddress()); // [static method]
