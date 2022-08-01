@@ -1,4 +1,3 @@
-package URI_and_URL;
 /*
 in application layer there are several protocols :-
   - HTTP
