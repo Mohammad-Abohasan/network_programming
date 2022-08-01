@@ -1,5 +1,3 @@
-package URI_and_URL;
-
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
