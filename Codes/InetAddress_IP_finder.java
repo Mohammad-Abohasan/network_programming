@@ -1,4 +1,3 @@
-package Network_Layer;
 // ========== Extract IP for several methods ==========
 // [Inet4Address + Inet6Address] = InetAddress
 
