@@ -25,7 +25,7 @@ public class Interface_information {
             System.out.println("PointToPoint : " + ni.isPointToPoint());
             System.out.println("Virtual      : " + ni.isVirtual());
             System.out.println("MTU          : " + ni.getMTU());
-            System.out.println("HW Address   : " + ni.getHardwareAddress());
+            System.out.println("HW Address   : " + ni.getHardwareAddress()); // MAC Address
 //            System.out.println("HW Address   : " + Arrays.toString(ni.getHardwareAddress()));
 
             list = ni.getInterfaceAddresses();
