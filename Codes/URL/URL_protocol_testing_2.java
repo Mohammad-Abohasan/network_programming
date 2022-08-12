@@ -19,7 +19,7 @@ import java.net.URL;
  *
  * @author Mohammad_AboHasan
  */
-public class protocol_testing_2 {
+public class URL_protocol_testing_2 {
 
     public static void main(String[] args) {
         Tester("http://www.google.com.index.html");
