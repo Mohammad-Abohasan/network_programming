@@ -1,17 +1,24 @@
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
+import java.net.URLEncoder;
 
 /**
  *
  * @author Mohammad_AboHasan
  */
-public class decoding {
+public class decoding_encoding {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
+        // decoding
         String cipher_text = "https://www.google.com/my%20name%20mohammad%2Dabohasan";
         String plain_text = URLDecoder.decode(cipher_text, "UTF-8");
         System.out.println(cipher_text);
         System.out.println(plain_text);
+        
+        // encoding
+        cipher_text = URLEncoder.encode(plain_text, "UTF-8");
+        System.out.println(plain_text);
+        System.out.println(cipher_text);
     }
 }
 
